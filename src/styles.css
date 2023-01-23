@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    background: radial-gradient(circle at 10% 20%,
+            rgb(242, 235, 243) 0%,
+            rgb(234, 241, 249) 90.1%);
+}
+
+.weather {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #b5b8d780;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.color {
+    color: rgb(44, 143, 176);
+}
+
+.currentTemp, .cityName {
+    font-size: 30px;
+}
+
+ 
+.weatherIcon {
+    font-size: 30px ;
+}
+ .searchButton {
+    background-color: rgb(65, 89, 240);
+    border-radius: 4px;
+ }
+.currentButton {
+    margin-left: 20px;
+    background-color: green;
+    border-radius: 4px;
+}
